@@ -4,7 +4,7 @@ pragma solidity 0.8.22;
 
 // Example of "Checks Effects Interactions" pattern: aims to provide a safe solution, 
 // in order to make functions unassailable against re-entrancy attacks of any form.
-contract MappingsStructExample {
+contract MappingsWithdrawalsExample {
 
     mapping(address => uint) public balanceReceived;
     
